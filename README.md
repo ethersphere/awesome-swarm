@@ -24,7 +24,7 @@ Click on the menu icon next to [README.md](#readme) for a list of sections
 
 [Bee-JS](https://github.com/ethersphere/bee-js) - A high-level Javascript library to interact with Bee through its REST API
 
-[Mantray-JS](https://github.com/ethersphere/mantaray-js) - A low-level Swarm manifest manipulation library
+[Mantaray-JS](https://github.com/ethersphere/mantaray-js) - A low-level Swarm manifest manipulation library
 
 [Sepatree](https://github.com/dr-chesster/sepatree) - The SepaTree data structure abstracted on Swarm
 
@@ -61,4 +61,3 @@ Click on the menu icon next to [README.md](#readme) for a list of sections
 [Swarm Extension](https://github.com/ethersphere/swarm-extension) - Official extension that adds Swarm support and injects Bee library to the browser
 
 [Pastebee CLI](https://github.com/AuHau/pastebee-cli) - Upload to Pastebee via the CLI and share the Swarm hash
-
