@@ -1,6 +1,6 @@
 # Awesome-Swarm
 
-[Swarm](https://www.ethswarm.org/) is an incentivized peer-to-peer storage and communication system. Join the decentralized network with a Bee node, the basic building block of Swarm.
+[Swarm](https://www.ethswarm.org/) is an incentivized peer-to-peer storage and communication system. [Join the decentralized network with a Bee node](https://docs.ethswarm.org/docs/installation/quick-start), the basic building block of Swarm.
 
 This is a list of free and open source projects related to Swarm and its growing ecosystem.
 
@@ -27,6 +27,8 @@ Click on the menu icon next to [README.md](#readme) for a list of sections
 [Mantaray-JS](https://github.com/ethersphere/mantaray-js) - A low-level Swarm manifest manipulation library
 
 [Sepatree](https://github.com/dr-chesster/sepatree) - The SepaTree data structure abstracted on Swarm
+
+[BeeJeez](https://github.com/beejeez/beejeez) - Javascript implementation of the handshake protocol and others based on libp2p
 
 ### CI/CD
 
@@ -61,3 +63,25 @@ Click on the menu icon next to [README.md](#readme) for a list of sections
 [Swarm Extension](https://github.com/ethersphere/swarm-extension) - Official extension that adds Swarm support and injects Bee library to the browser
 
 [Pastebee CLI](https://github.com/AuHau/pastebee-cli) - Upload to Pastebee via the CLI and share the Swarm hash
+
+## Smart Contracts
+
+**[`^ back to top ^`](#)**
+
+[Swap, Swear and Swindle](https://github.com/ethersphere/swap-swear-and-swindle) - Protocols for peer-to-peer accounting
+
+[Storage Incentives](https://github.com/ethersphere/storage-incentives) - Smart contracts providing the basis for Swarm's storage incentivization model
+
+### Documentations
+
+**[`^ back to top ^`](#)**
+
+[The Book of Swarm](https://docs.ethswarm.org/the-book-of-swarm.pdf) - Storage and communication infrastructure for self-sovereign digital society back-end stack for the decentralised web
+
+[Bee Docs](https://github.com/ethersphere/bee-docs) - Documentation for the Swarm Bee Client. View at [docs.ethswarm.org](https://docs.ethswarm.org/docs/).
+
+[Bee-JS Docs](https://github.com/ethersphere/bee-js-docs) - Documentation for the Swarm Bee-js javascript library. View at [bee-js.ethswarm.org](https://bee-js.ethswarm.org/docs/).
+
+### Miscellaneous
+
+[Swarm Bot](https://github.com/ethersphere/swarm-bot) - Discord bot handling commands related to Swarm and its community
