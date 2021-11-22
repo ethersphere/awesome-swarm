@@ -84,4 +84,6 @@ Click on the menu icon next to [README.md](#readme) for a list of sections
 
 ### Miscellaneous
 
+**[`^ back to top ^`](#)**
+
 [Swarm Bot](https://github.com/ethersphere/swarm-bot) - Discord bot handling commands related to Swarm and its community
