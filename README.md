@@ -64,7 +64,7 @@ Click on the menu icon next to [README.md](#readme) for a list of sections
 
 [Pastebee CLI](https://github.com/AuHau/pastebee-cli) - Upload to Pastebee via the CLI and share the Swarm hash
 
-## Smart Contracts
+### Smart Contracts
 
 **[`^ back to top ^`](#)**
 
