@@ -88,25 +88,25 @@ Click on the menu icon next to [README.md](#readme) for a list of sections
 
 **[`^ back to top ^`](#)**
 
-[Ecosystem initiative for ethical web3](https://fairdatasociety.org/)
+[Fair data society](https://fairdatasociety.org/) - Ecosystem initiative for ethical Web3
 
-[FairOS - file system, key-value store and nosql store on Swarm (for developers)](https://github.com/fairDataSociety/fairOS-dfs)
+[FairOS](https://github.com/fairDataSociety/fairOS-dfs) - Distributed file system, key-value store and nosql store on Swarm (for developers)
 
-[Fair data protocol enabling data interoperability](https://github.com/fairDataSociety/FIPs/blob/master/text/0001-fdp-roadmap.md)
+[Fair data protocol enabling data interoperability](https://github.com/fairDataSociety/FIPs/blob/master/text/0001-fdp-roadmap.md) - Develop your dapp on Swarm fast and in an interoperable way
 
-[Fairdrive (decentralised dropbox for end-users and developers)](https://fairdrive.fairdatasociety.org/)
+[Fairdrive](https://fairdrive.fairdatasociety.org/) - Decentralised and unstoppable "Dropbox" for end-users and developers
 
-[Decentralised file sharing](https://fairdrop.xyz)
+[Fairdrop](https://fairdrop.xyz) - Decentralised file sharing
 
-[Galileo (Open Street Maps on Swarm)](https://app.galileo.fairdatasociety.org/)
+[Galileo](https://app.galileo.fairdatasociety.org/) - Open Street Maps on Swarm
 
-[Dracula, hackmd-like markdown editor that works with Swarm](https://app.dracula.fairdatasociety.org/)
+[Dracula](https://app.dracula.fairdatasociety.org/) - Hackmd-like markdown editor that works with Swarm
 
-[SwarmScan, get network insights](https://swarmscan.resenje.org/)
+[SwarmScan](https://swarmscan.resenje.org/) - Get network insights
 
-[Etherna, decetralised Youtube on Swarm](https://etherna.io/)
+[Etherna.io](https://etherna.io/) - Decentralised Youtube on Swarm
 
-[Archive your social media](https://socialarchive.info/)
+[Social Archive](https://socialarchive.info/) - Archive your social media
 
 
 
