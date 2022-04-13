@@ -84,6 +84,23 @@ Click on the menu icon next to [README.md](#readme) for a list of sections
 
 [Bee-JS Docs](https://github.com/ethersphere/bee-js-docs) - Documentation for the Swarm Bee-js javascript library. View at [bee-js.ethswarm.org](https://bee-js.ethswarm.org/docs/).
 
+### Community / Ecosystem
+
+**[`^ back to top ^`](#)**
+
+[Ecosystem initiative for ethical web3](https://fairdatasociety.org/)
+[FairOS - file system, key-value store and nosql store on Swarm (for developers)](https://github.com/fairDataSociety/fairOS-dfs)
+[Fair data protocol enabling data interoperability](https://github.com/fairDataSociety/FIPs/blob/master/text/0001-fdp-roadmap.md)
+[Fairdrive (decentralised dropbox for end-users and developers)](https://fairdrive.fairdatasociety.org/)
+[Decentralised file sharing](https://fairdrop.xyz)
+[Galileo (Open Street Maps on Swarm)](https://app.galileo.fairdatasociety.org/)
+[Dracula, hackmd-like markdown editor that works with Swarm](https://app.dracula.fairdatasociety.org/)
+[SwarmScan, get network insights](https://swarmscan.resenje.org/)
+[Etherna, decetralised Youtube on Swarm](https://etherna.io/)
+[Archive your social media](https://socialarchive.info/)
+
+
+
 ### Miscellaneous
 
 **[`^ back to top ^`](#)**
