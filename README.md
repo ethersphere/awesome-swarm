@@ -66,6 +66,8 @@ Click on the menu icon next to [README.md](#readme) for a list of sections
 
 [Pastebee CLI](https://github.com/AuHau/pastebee-cli) - Upload to Pastebee via the CLI and share the Swarm hash
 
+[Swarm CID Converter](https://github.com/agazso/swarm-cid-converter) - Convert Swarm hashes or links to CID and vice versa.
+
 ### Smart Contracts
 
 **[`^ back to top ^`](#)**
