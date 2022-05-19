@@ -110,6 +110,9 @@ Click on the menu icon next to [README.md](#readme) for a list of sections
 
 [Social Archive](https://socialarchive.info/) - Archive your social media
 
+[Swapchat 2.0](https://swapchat.bzz.link) - Decentralised, ephemeral, peer-to-peer, encrypted chat
+
+[Hacker Manifesto](https://bah5acgza3gsduiek2cykkbj27jd7ug2vpzi3exbsfd76mjujqijcjvmo4mia.bzz.link) - The Hacker Manifesto on Swarm with a community funded postage stamp
 
 
 ### Miscellaneous
