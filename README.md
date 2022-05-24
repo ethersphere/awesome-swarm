@@ -114,6 +114,7 @@ Click on the menu icon next to [README.md](#readme) for a list of sections
 
 [Hacker Manifesto](https://bah5acgza3gsduiek2cykkbj27jd7ug2vpzi3exbsfd76mjujqijcjvmo4mia.bzz.link) - The Hacker Manifesto on Swarm with a community funded postage stamp
 
+[SwarmNFT library](https://github.com/igar1991/SwarmNFT) - JavaScript library for creating NFTs on Ethereum-compatible blockchains and storing content on Swarm
 
 ### Miscellaneous
 
