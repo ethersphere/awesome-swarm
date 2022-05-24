@@ -68,6 +68,8 @@ Click on the menu icon next to [README.md](#readme) for a list of sections
 
 [Swarm CID Converter](https://github.com/agazso/swarm-cid-converter) - Convert Swarm hashes or links to CID and vice versa.
 
+[Bee-FS](https://github.com/aloknerurkar/bee-fs) - FUSE filesystem for Bee
+
 ### Smart Contracts
 
 **[`^ back to top ^`](#)**
