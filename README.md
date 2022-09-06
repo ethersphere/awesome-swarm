@@ -96,9 +96,15 @@ Click on the menu icon next to [README.md](#readme) for a list of sections
 
 [FairOS](https://github.com/fairDataSociety/fairOS-dfs) - Distributed file system, key-value store and nosql store on Swarm (for developers)
 
-[Fair data protocol enabling data interoperability](https://github.com/fairDataSociety/FIPs/blob/master/text/0001-fdp-roadmap.md) - Develop your dapp on Swarm fast and in an interoperable way
+[Fair Data Protocol roadmap enabling data interoperability](https://github.com/fairDataSociety/FIPs/blob/master/text/0001-fdp-roadmap.md) - Develop your dapp on Swarm fast and in an interoperable way
 
-[Fairdrive](https://fairdrive.fairdatasociety.org/) - Decentralised and unstoppable "Dropbox" for end-users and developers
+[FDP play](https://github.com/fairDataSociety/fdp-play) - CLI tool to spin up local development FDP environment and Bee cluster with Docker
+
+[Blossom browser extension](https://github.com/fairDataSociety/blossom) - Browser Extension based on Fair Data Protocol that acts as a web3 framework for dApps and a Fair Data Society account manager for end-users
+
+[Fairdrive](https://fairdrive.fairdatasociety.org/) - Decentralised and unstoppable "Dropbox" for end-users and developers using Fair Data Protocol
+
+[Fairdrive code](https://github.com/fairDataSociety/fairdrive-theapp) - Code for decentralised and unstoppable "Dropbox" for end-users and developers using Fair Data Protocol
 
 [Fairdrop](https://fairdrop.xyz) - Decentralised file sharing
 
