@@ -118,6 +118,11 @@ Click on the menu icon next to [README.md](#readme) for a list of sections
 
 [SwarmNFT library](https://github.com/igar1991/SwarmNFT) - JavaScript library for creating NFTs on Ethereum-compatible blockchains and storing content on Swarm
 
+[videoNFT](https://github.com/pabloVoorvaart/videoNFT/) - NFT live streaming with Swarm (winner of EthBerlin3 2022 Freedom to Transact Track)
+
+[DeBoot](https://github.com/awmacpherson/deboot) - DeBoot is a project to research and implement approaches to bootloading OS images from a decentralized storage network such as Swarm or IPFS.
+
+
 ### Miscellaneous
 
 **[`^ back to top ^`](#)**
