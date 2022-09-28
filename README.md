@@ -70,6 +70,8 @@ Click on the menu icon next to [README.md](#readme) for a list of sections
 
 [Bee-FS](https://github.com/aloknerurkar/bee-fs) - FUSE filesystem for Bee
 
+[Nextcloud Swarm Plugin](https://github.com/MetaProvide/nextcloud-swarm-plugin) - Plugin for bridging Nextcloud and Swarm.
+
 ### Smart Contracts
 
 **[`^ back to top ^`](#)**
