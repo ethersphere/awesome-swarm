@@ -90,6 +90,12 @@ Click on the menu icon next to [README.md](#readme) for a list of sections
 
 [Bee-JS Docs](https://github.com/ethersphere/bee-js-docs) - Documentation for the Swarm Bee-js javascript library. View at [bee-js.ethswarm.org](https://bee-js.ethswarm.org/docs/).
 
+### API
+
+**[`^ back to top ^`](#)**
+
+[Bee API](https://docs.ethswarm.org/api/) - A list of the currently provided Interfaces to interact with the swarm, implementing file operations and sending messages.
+
 ### Community / Ecosystem
 
 **[`^ back to top ^`](#)**
