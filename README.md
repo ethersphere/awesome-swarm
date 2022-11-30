@@ -68,7 +68,7 @@ Click on the menu icon next to [README.md](#readme) for a list of sections
 
 [Swarm CID Converter](https://github.com/agazso/swarm-cid-converter) - Convert Swarm hashes or links to CID and vice versa.
 
-[Bee-FS](https://github.com/aloknerurkar/bee-fs) - FUSE filesystem for Bee
+[Bee-AFS](https://github.com/aloknerurkar/bee-afs) - FUSE filesystem for Bee
 
 [Nextcloud Swarm Plugin](https://github.com/MetaProvide/nextcloud-swarm-plugin) - Plugin for bridging Nextcloud and Swarm.
 
