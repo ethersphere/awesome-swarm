@@ -116,7 +116,7 @@ Click on the menu icon next to [README.md](#readme) for a list of sections
 
 [SwarmScan](https://swarmscan.resenje.org/) - Get network insights
 
-[Etherna.io](https://etherna.io/) - Decentralised Youtube on Swarm
+[Etherna.io](https://etherna.io/) - Decentralised media platform on Swarm
 
 [Social Archive](https://socialarchive.info/) - Archive your social media
 
