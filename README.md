@@ -18,7 +18,6 @@ Click on the menu icon next to [README.md](#readme) for a list of sections
 
 [Bee](https://github.com/ethersphere/bee) - Also referred to as the _node_ or the _client_, this service allows you to join the Swarm network
 
-[Bee-Clef](https://github.com/ethersphere/bee-clef) - External signer service for transactions, suitable for Bee
 
 ### Libraries
 
@@ -26,11 +25,9 @@ Click on the menu icon next to [README.md](#readme) for a list of sections
 
 [Bee-JS](https://github.com/ethersphere/bee-js) - A high-level Javascript library to interact with Bee through its REST API
 
-[Mantaray-JS](https://github.com/ethersphere/mantaray-js) - A low-level Swarm manifest manipulation library
+[Mantaray-js](https://github.com/ethersphere/mantaray-js) - A low-level Swarm manifest manipulation library
 
-[Sepatree](https://github.com/dr-chesster/sepatree) - The SepaTree data structure abstracted on Swarm
-
-[BeeJeez](https://github.com/beejeez/beejeez) - Javascript implementation of the handshake protocol and others based on libp2p
+[Mantaray-py](https://github.com/Ankvik-Tech-Labs/mantaray-py/) - Allows you to manipulate and interpret mantaray data via MantarayNode and MantarayFork abstractions.
 
 ### CI/CD
 
@@ -38,11 +35,7 @@ Click on the menu icon next to [README.md](#readme) for a list of sections
 
 [Beekeeper](https://github.com/ethersphere/beekeeper) - Orchestrate and test Bee clusters through Kubernetes
 
-[Bee Factory](https://github.com/ethersphere/bee-factory) - Sets up a Dockerized stack of Bee nodes including Ganache blockchain
-
-[Bee Factory VPS](https://github.com/Cafe137/bee-factory-vps) - Provides an automatized way to set up Bee Factory on a fresh Ubuntu VPS
-
-[Beeload Action](https://github.com/ethersphere/beeload-action) - GitHub Actions workflow for uploading data to the Swarm network
+[Swarm Actions](https://github.com/ethersphere/swarm-actions) - GitHub Actions workflow for uploading data to the Swarm network.  
 
 ### UI
 
@@ -52,9 +45,11 @@ Click on the menu icon next to [README.md](#readme) for a list of sections
 
 [Gateway](https://github.com/ethersphere/gateway) - Gateway to the Swarm project, for uploading, downloading and sharing assets on the network
 
-[Pastebee](https://github.com/1up-digital/pastebee) - Pastebin, but on Swarm and with unstoppable publishing
+[Swarmy](https://swarmy.cloud/) - Swarm as a service, makes it simple to store and retrieve data on Swarm. 
 
-[Chess UI](https://github.com/dr-chesster/chess-ui) - Play, store and share Chess games on Swarm
+[Swarm Desktop App](https://www.ethswarm.org/build/desktop) -  By running a lightweight Swarm node on your computer, you get direct access to the Swarm peer-to-peer network, without the need for centralized gateways.    
+
+[Etherjot](https://github.com/ethersphere/etherjot) - Bring your web3 blog live in minutes with Etherjot, a graphical blogging application natively supporting Swarm.
 
 ### Tools
 
@@ -64,13 +59,15 @@ Click on the menu icon next to [README.md](#readme) for a list of sections
 
 [Swarm Extension](https://github.com/ethersphere/swarm-extension) - Official extension that adds Swarm support and injects Bee library to the browser
 
-[Pastebee CLI](https://github.com/AuHau/pastebee-cli) - Upload to Pastebee via the CLI and share the Swarm hash
-
 [Swarm CID Converter](https://github.com/agazso/swarm-cid-converter) - Convert Swarm hashes or links to CID and vice versa.
 
 [Bee-AFS](https://github.com/aloknerurkar/bee-afs) - FUSE filesystem for Bee
 
 [Nextcloud Swarm Plugin](https://github.com/MetaProvide/nextcloud-swarm-plugin) - Plugin for bridging Nextcloud and Swarm.
+
+[Beest](https://github.com/w3rkspacelabs/beest) -  An interactive CLI toolkit that simplifies the management of multiple Bee nodes
+
+[Doctor Bee](https://github.com/w3rkspacelabs/doctor-bee) - A simple python script to check up a Bee node's health status.
 
 ### Smart Contracts
 
@@ -80,7 +77,7 @@ Click on the menu icon next to [README.md](#readme) for a list of sections
 
 [Storage Incentives](https://github.com/ethersphere/storage-incentives) - Smart contracts providing the basis for Swarm's storage incentivization model
 
-### Documentations
+### Documentation
 
 **[`^ back to top ^`](#)**
 
@@ -90,6 +87,15 @@ Click on the menu icon next to [README.md](#readme) for a list of sections
 
 [Bee-JS Docs](https://github.com/ethersphere/bee-js-docs) - Documentation for the Swarm Bee-js javascript library. View at [bee-js.ethswarm.org](https://bee-js.ethswarm.org/docs/).
 
+[Swarm Specification](https://papers.ethswarm.org/p/swarm-specification/) - The Swarm specification document is an essential resource for developers and software engineers seeking to build their own Swarm client or integrate Swarm's functionalities into their applications.
+
+[Swarm Erasure Coding paper](https://papers.ethswarm.org/p/erasure/) - The erasure coding paper provides a technical exploration of erasure coding in the Swarm network, focusing on ensuring data integrity and resilience.
+
+[Swarm Papers](https://papers.ethswarm.org/) - Swarm’s documentation includes a variety of papers from technical specifications to in-depth explorations of the network's architecture and functionalities.
+
+[Bee API Reference](https://docs.ethswarm.org/api/) - Bee API Documentation.
+
+
 ### Community / Ecosystem
 
 **[`^ back to top ^`](#)**
@@ -98,31 +104,19 @@ Click on the menu icon next to [README.md](#readme) for a list of sections
 
 [FairOS](https://github.com/fairDataSociety/fairOS-dfs) - Distributed file system, key-value store and nosql store on Swarm (for developers)
 
-[Fair Data Protocol roadmap enabling data interoperability](https://github.com/fairDataSociety/FIPs/blob/master/text/0001-fdp-roadmap.md) - Develop your dapp on Swarm fast and in an interoperable way
-
+[The Fair Data Protocol (FDP)](https://fdp.fairdatasociety.org/) - A data interoperability protocol for dApps that use personal data.
+ 
 [FDP play](https://github.com/fairDataSociety/fdp-play) - CLI tool to spin up local development FDP environment and Bee cluster with Docker
-
-[Blossom browser extension](https://github.com/fairDataSociety/blossom) - Browser Extension based on Fair Data Protocol that acts as a web3 framework for dApps and a Fair Data Society account manager for end-users
 
 [Fairdrive](https://fairdrive.fairdatasociety.org/) - Decentralised and unstoppable "Dropbox" for end-users and developers using Fair Data Protocol
 
 [Fairdrive code](https://github.com/fairDataSociety/fairdrive-theapp) - Code for decentralised and unstoppable "Dropbox" for end-users and developers using Fair Data Protocol
 
-[Fairdrop](https://fairdrop.xyz) - Decentralised file sharing
-
 [Galileo](https://app.galileo.fairdatasociety.org/) - Open Street Maps on Swarm
-
-[Dracula](https://app.dracula.fairdatasociety.org/) - Hackmd-like markdown editor that works with Swarm
 
 [SwarmScan](https://swarmscan.resenje.org/) - Get network insights
 
 [Etherna.io](https://etherna.io/) - Decentralised Youtube on Swarm
-
-[Social Archive](https://socialarchive.info/) - Archive your social media
-
-[Swapchat 2.0](https://swapchat.bzz.link) - Decentralised, ephemeral, peer-to-peer, encrypted chat
-
-[Hacker Manifesto](https://bah5acgza3gsduiek2cykkbj27jd7ug2vpzi3exbsfd76mjujqijcjvmo4mia.bzz.link) - The Hacker Manifesto on Swarm with a community funded postage stamp
 
 [SwarmNFT library](https://github.com/igar1991/SwarmNFT) - JavaScript library for creating NFTs on Ethereum-compatible blockchains and storing content on Swarm
 
@@ -131,6 +125,14 @@ Click on the menu icon next to [README.md](#readme) for a list of sections
 [DeBoot](https://github.com/awmacpherson/deboot) - DeBoot is a project to research and implement approaches to bootloading OS images from a decentralized storage network such as Swarm or IPFS.
 
 [Swarm DAppNode Package](https://github.com/rndlabs/dappnodepackage-swarm) - Swarm DAppNode package for Swarm Mainnet with multi-platform (x86_64 and arm64) support. Testnet DAppNode packages can be found [here](https://github.com/rndlabs/dappnodepackage-swarm-testnet).
+
+[Mipasa Swarm Connector](https://github.com/MiPasa/mipasa-swarm-connector/) - MiPasa connector for Swarm (BZZ) distributed storage network.
+
+[Export Webpage on Swarm](https://github.com/ethersphere/devcon-swarm-exporter) - CLI tool to build an optimized static export of devcon app frontend.
+
+[Blob Storage on Swarm](https://github.com/Blobscan/blobscan) - The pioneer blockchain explorer dedicated to navigate and visualize shard blob transactions.
+
+[SWIPs](https://github.com/ethersphere/SWIPs) - The Swarm Improvement Proposal repository.
 
 ### Miscellaneous
 
