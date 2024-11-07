@@ -1,5 +1,3 @@
-# Awesome-Swarm
-
 [Swarm](https://www.ethswarm.org/) is an incentivized peer-to-peer storage and communication system. [Join the decentralized network with a Bee node](https://docs.ethswarm.org/docs/installation/quick-start), the basic building block of Swarm.
 
 This is a list of free and open source projects related to Swarm and its growing ecosystem.
