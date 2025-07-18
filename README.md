@@ -49,6 +49,10 @@ Click on the menu icon next to [README.md](#readme) for a list of sections
 
 [Etherjot](https://github.com/ethersphere/etherjot) - Bring your web3 blog live in minutes with Etherjot, a graphical blogging application natively supporting Swarm.
 
+[buzzMint](buzz-mint.eth.limo) - A decentralised NFT creator.
+
+[Bchan](https://bchan.bzz.limo/) - A private message board allowing users to post images, text, and links across various threads.
+
 ### Tools
 
 **[`^ back to top ^`](#)**
