@@ -114,7 +114,7 @@ Click on the menu icon next to [README.md](#readme) for a list of sections
 
 [SwarmScan](https://swarmscan.resenje.org/) - Get network insights
 
-[Etherna.io](https://etherna.io/) - Decentralised Youtube on Swarm
+[Etherna.io](https://etherna.io/) - Decentralised media platform on Swarm
 
 [SwarmNFT library](https://github.com/igar1991/SwarmNFT) - JavaScript library for creating NFTs on Ethereum-compatible blockchains and storing content on Swarm
 
