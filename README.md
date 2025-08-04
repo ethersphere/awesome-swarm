@@ -71,6 +71,8 @@ Click on the menu icon next to [README.md](#readme) for a list of sections
 
 [Doctor Bee](https://github.com/w3rkspacelabs/doctor-bee) - A simple python script to check up a Bee node's health status.
 
+[IPFS to Swarm](https://github.com/Solar-Punk-Ltd/ipfs-to-swarm) - Migrate data from IPFS to Swarm.
+
 ### Smart Contracts
 
 **[`^ back to top ^`](#)**
