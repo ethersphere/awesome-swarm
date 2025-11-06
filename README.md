@@ -57,6 +57,8 @@ Click on the menu icon next to [README.md](#readme) for a list of sections
 
 **[`^ back to top ^`](#)**
 
+[Swarm MCP](https://github.com/ethersphere/swarm-mcp) - A Model Context Protocol (MCP) server implementation that uses Ethereum Swarm's Bee API for storing and retrieving data.
+
 [Swarm CLI](https://github.com/ethersphere/swarm-cli) - Do everything on Swarm with the power of the terminal
 
 [Swarm Extension](https://github.com/ethersphere/swarm-extension) - Official extension that adds Swarm support and injects Bee library to the browser
