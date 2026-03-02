@@ -4,12 +4,6 @@ This is a list of free and open source projects related to Swarm and its growing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) to learn how to create your submission.
 
-## Table of contents
-
-Click on the menu icon next to [README.md](#readme) for a list of sections
-
-## Projects
-
 ### Services
 
 **[`^ back to top ^`](#)**
