@@ -112,7 +112,6 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) to learn how to create your submission.
 
 [Fairdrive code](https://github.com/fairDataSociety/fairdrive-theapp) - Code for decentralised and unstoppable "Dropbox" for end-users and developers using Fair Data Protocol.
 
-[Galileo](https://app.galileo.fairdatasociety.org/) - Open Street Maps on Swarm.
 
 [SwarmScan](https://swarmscan.resenje.org/) - Get network insights.
 
