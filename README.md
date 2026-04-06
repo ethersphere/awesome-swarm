@@ -45,7 +45,6 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) to learn how to create your submission.
 
 [buzzMint](https://buzzmint.io/) - A decentralised NFT creator.
 
-[Bchan](https://bchan.bzz.limo/) - A private message board allowing users to post images, text, and links across various threads.
 
 ### Tools
 
