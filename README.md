@@ -1,4 +1,4 @@
-[Swarm](https://www.ethswarm.org/) is an incentivized peer-to-peer storage and communication system. [Join the decentralized network with a Bee node](https://docs.ethswarm.org/docs/installation/quick-start), the basic building block of Swarm.
+[Swarm](https://www.ethswarm.org/) is an incentivized peer-to-peer storage and communication system. [Join the decentralized network with a Bee node](https://docs.ethswarm.org/docs/bee/installation/quick-start), the basic building block of Swarm.
 
 This is a list of free and open source projects related to Swarm and its growing ecosystem.
 
@@ -87,7 +87,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) to learn how to create your submission.
 
 [Bee-JS Docs](https://github.com/ethersphere/bee-js-docs) - Documentation for the Swarm Bee-js javascript library. View at [bee-js.ethswarm.org](https://bee-js.ethswarm.org/docs/).
 
-[Swarm Specification](https://papers.ethswarm.org/p/swarm-specification/) - The Swarm specification document is an essential resource for developers and software engineers seeking to build their own Swarm client or integrate Swarm's functionalities into their applications.
+[Swarm Specification](https://papers.ethswarm.org/p/swarm-protocol-spec/) - The Swarm specification document is an essential resource for developers and software engineers seeking to build their own Swarm client or integrate Swarm's functionalities into their applications.
 
 [Swarm Erasure Coding paper](https://papers.ethswarm.org/p/erasure/) - The erasure coding paper provides a technical exploration of erasure coding in the Swarm network, focusing on ensuring data integrity and resilience.
 
@@ -124,7 +124,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) to learn how to create your submission.
 
 [DeBoot](https://github.com/awmacpherson/deboot) - DeBoot is a project to research and implement approaches to bootloading OS images from a decentralized storage network such as Swarm or IPFS.
 
-[Swarm DAppNode Package](https://github.com/rndlabs/dappnodepackage-swarm) - Swarm DAppNode package for Swarm Mainnet with multi-platform (x86_64 and arm64) support. Testnet DAppNode packages can be found [here](https://github.com/rndlabs/dappnodepackage-swarm-testnet).
+[Swarm DAppNode Package](https://github.com/rndlabs/dappnodepackage-swarm) - Swarm DAppNode package for running a Bee node on DAppNode. For detailed installation instructions, see the [DAppNode package documentation](https://docs.dappnode.io/docs/user/packages/swarm/).
 
 [Mipasa Swarm Connector](https://github.com/MiPasa/mipasa-swarm-connector/) - MiPasa connector for Swarm (BZZ) distributed storage network.
 
