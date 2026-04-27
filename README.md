@@ -43,9 +43,8 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) to learn how to create your submission.
 
 [Etherjot](https://github.com/ethersphere/etherjot) - Bring your web3 blog live in minutes with Etherjot, a graphical blogging application natively supporting Swarm.
 
-[buzzMint](buzz-mint.eth.limo) - A decentralised NFT creator.
+[buzzMint](https://buzzmint.io/) - A decentralised NFT creator.
 
-[Bchan](https://bchan.bzz.limo/) - A private message board allowing users to post images, text, and links across various threads.
 
 ### Tools
 
@@ -112,7 +111,6 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) to learn how to create your submission.
 
 [Fairdrive code](https://github.com/fairDataSociety/fairdrive-theapp) - Code for decentralised and unstoppable "Dropbox" for end-users and developers using Fair Data Protocol.
 
-[Galileo](https://app.galileo.fairdatasociety.org/) - Open Street Maps on Swarm.
 
 [SwarmScan](https://swarmscan.resenje.org/) - Get network insights.
 
@@ -124,7 +122,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) to learn how to create your submission.
 
 [DeBoot](https://github.com/awmacpherson/deboot) - DeBoot is a project to research and implement approaches to bootloading OS images from a decentralized storage network such as Swarm or IPFS.
 
-[Swarm DAppNode Package](https://github.com/rndlabs/dappnodepackage-swarm) - Swarm DAppNode package for running a Bee node on DAppNode. For detailed installation instructions, see the [DAppNode package documentation](https://docs.dappnode.io/docs/user/packages/swarm/).
+[Swarm DAppNode Package](https://github.com/rndlabs/dappnodepackage-swarm) - Swarm DAppNode package for Swarm Mainnet with multi-platform (x86_64 and arm64) support.
 
 [Mipasa Swarm Connector](https://github.com/MiPasa/mipasa-swarm-connector/) - MiPasa connector for Swarm (BZZ) distributed storage network.
 
