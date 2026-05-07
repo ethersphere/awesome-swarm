@@ -68,6 +68,8 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) to learn how to create your submission.
 
 [IPFS to Swarm](https://github.com/Solar-Punk-Ltd/ipfs-to-swarm) - Migrate data from IPFS to Swarm.
 
+[bee-tui](https://github.com/ethswarm-tools/bee-tui) - k9s-style terminal cockpit for Bee operators with nine live screens, drill panes, and an always-on HTTP request tail.
+
 ### Smart Contracts
 
 **[`^ back to top ^`](#)**
