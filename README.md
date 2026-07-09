@@ -17,8 +17,6 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) to learn how to create your submission.
 
 [Bee-JS](https://github.com/ethersphere/bee-js) - A high-level Javascript library to interact with Bee through its REST API.
 
-[Mantaray-js](https://github.com/ethersphere/mantaray-js) - A low-level Swarm manifest manipulation library.
-
 [Mantaray-py](https://github.com/Ankvik-Tech-Labs/mantaray-py/) - Allows you to manipulate and interpret mantaray data via MantarayNode and MantarayFork abstractions.
 
 ### CI/CD
@@ -35,7 +33,11 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) to learn how to create your submission.
 
 [Bee Dashboard](https://github.com/ethersphere/bee-dashboard) - React project to troubleshoot and interact with your Bee node.
 
+[Beeport](https://github.com/ethersphere/beeport) - Managed service to buy storage with multichain payments and upload data to Swarm.
+
 [Gateway](https://github.com/ethersphere/swarm-gateway) - Gateway to the Swarm project, for uploading, downloading and sharing assets on the network.
+
+[Multichain Widget](https://github.com/ethersphere/multichain-widget) - Embeddable React widget for multichain swaps to xBZZ and xDAI.
 
 [Swarmy](https://swarmy.cloud/) - Swarm as a service, makes it simple to store and retrieve data on Swarm. 
 
@@ -53,6 +55,10 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) to learn how to create your submission.
 [Swarm MCP](https://github.com/ethersphere/swarm-mcp) - A Model Context Protocol (MCP) server implementation that uses Ethereum Swarm's Bee API for storing and retrieving data.
 
 [Swarm CLI](https://github.com/ethersphere/swarm-cli) - No more copy-pasting curl commands, with `swarm-cli` you can do everything on Swarm with simple commands straight from the terminal.
+
+[Create Swarm App](https://github.com/ethersphere/create-swarm-app) - Quick-start a Swarm decentralized app from multiple templates.
+
+[Bee Factory](https://github.com/ethersphere/bee-factory) - CLI tool to spin up a test environment with Bee clients and a test blockchain.
 
 [Swarm Extension](https://github.com/ethersphere/swarm-extension) - Official extension that adds Swarm support and injects Bee library to the browser.
 
@@ -102,8 +108,6 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) to learn how to create your submission.
 [FairOS](https://github.com/fairDataSociety/fairOS-dfs) - Distributed file system, key-value store and nosql store on Swarm (for developers).
 
 [The Fair Data Protocol (FDP)](https://fdp.fairdatasociety.org/) - A data interoperability protocol for dApps that use personal data.
- 
-[FDP play](https://github.com/fairDataSociety/fdp-play) - CLI tool to spin up local development FDP environment and Bee cluster with Docker.
 
 [Fairdrive](https://fairdrive.fairdatasociety.org/) - Decentralised and unstoppable "Dropbox" for end-users and developers using Fair Data Protocol.
 
