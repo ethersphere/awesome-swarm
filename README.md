@@ -35,7 +35,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) to learn how to create your submission.
 
 [Bee Dashboard](https://github.com/ethersphere/bee-dashboard) - React project to troubleshoot and interact with your Bee node.
 
-[Gateway](https://github.com/ethersphere/gateway-ui) - Gateway to the Swarm project, for uploading, downloading and sharing assets on the network.
+[Gateway](https://github.com/ethersphere/swarm-gateway) - Gateway to the Swarm project, for uploading, downloading and sharing assets on the network.
 
 [Swarmy](https://swarmy.cloud/) - Swarm as a service, makes it simple to store and retrieve data on Swarm. 
 
