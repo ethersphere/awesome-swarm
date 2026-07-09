@@ -23,8 +23,6 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) to learn how to create your submission.
 
 **[`^ back to top ^`](#)**
 
-[Bee Factory](https://github.com/ethersphere/bee-factory) - CLI tool to spin up a test environment with Bee clients and a test blockchain.
-
 [Beekeeper](https://github.com/ethersphere/beekeeper) - Orchestrate and test Bee clusters through Kubernetes.
 
 [Swarm Actions](https://github.com/ethersphere/swarm-actions) - GitHub Actions workflow for uploading data to the Swarm network.  
@@ -59,6 +57,8 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) to learn how to create your submission.
 [Swarm CLI](https://github.com/ethersphere/swarm-cli) - No more copy-pasting curl commands, with `swarm-cli` you can do everything on Swarm with simple commands straight from the terminal.
 
 [Create Swarm App](https://github.com/ethersphere/create-swarm-app) - Quick-start a Swarm decentralized app from multiple templates.
+
+[Bee Factory](https://github.com/ethersphere/bee-factory) - CLI tool to spin up a test environment with Bee clients and a test blockchain.
 
 [Swarm Extension](https://github.com/ethersphere/swarm-extension) - Official extension that adds Swarm support and injects Bee library to the browser.
 
