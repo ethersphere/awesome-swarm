@@ -35,7 +35,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) to learn how to create your submission.
 
 [Bee Dashboard](https://github.com/ethersphere/bee-dashboard) - React project to troubleshoot and interact with your Bee node.
 
-[Gateway](https://github.com/ethersphere/gateway) - Gateway to the Swarm project, for uploading, downloading and sharing assets on the network.
+[Gateway](https://github.com/ethersphere/swarm-gateway) - Gateway to the Swarm project, for uploading, downloading and sharing assets on the network.
 
 [Swarmy](https://swarmy.cloud/) - Swarm as a service, makes it simple to store and retrieve data on Swarm. 
 
@@ -61,8 +61,6 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) to learn how to create your submission.
 [Bee-AFS](https://github.com/aloknerurkar/bee-afs) - FUSE filesystem for Bee.
 
 [Nextcloud Swarm Plugin](https://github.com/MetaProvide/nextcloud-swarm-plugin) - Plugin for bridging Nextcloud and Swarm.
-
-[Beest](https://github.com/w3rkspacelabs/beest) -  An interactive CLI toolkit that simplifies the management of multiple Bee nodes.
 
 [Doctor Bee](https://github.com/w3rkspacelabs/doctor-bee) - A simple python script to check up a Bee node's health status.
 
@@ -112,17 +110,17 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) to learn how to create your submission.
 [Fairdrive code](https://github.com/fairDataSociety/fairdrive-theapp) - Code for decentralised and unstoppable "Dropbox" for end-users and developers using Fair Data Protocol.
 
 
-[SwarmScan](https://swarmscan.resenje.org/) - Get network insights.
+[SwarmScan](https://swarmscan.io/) - Get network insights.
 
 [Etherna.io](https://etherna.io/) - Decentralised media platform on Swarm.
 
 [SwarmNFT library](https://github.com/igar1991/SwarmNFT) - JavaScript library for creating NFTs on Ethereum-compatible blockchains and storing content on Swarm.
 
-[videoNFT](https://github.com/pabloVoorvaart/videoNFT/) - NFT live streaming with Swarm (winner of EthBerlin3 2022 Freedom to Transact Track).
+[videoNFT](https://github.com/pblvrt/videoNFT) - NFT live streaming with Swarm (winner of EthBerlin3 2022 Freedom to Transact Track).
 
-[DeBoot](https://github.com/awmacpherson/deboot) - DeBoot is a project to research and implement approaches to bootloading OS images from a decentralized storage network such as Swarm or IPFS.
+[DeBoot](https://github.com/debootdevs/deboot) - DeBoot is a project to research and implement approaches to bootloading OS images from a decentralized storage network such as Swarm or IPFS.
 
-[Swarm DAppNode Package](https://github.com/rndlabs/dappnodepackage-swarm) - Swarm DAppNode package for Swarm Mainnet with multi-platform (x86_64 and arm64) support.
+[Swarm DAppNode Package](https://github.com/w3rkspacelabs/DAppNodePackage-Swarm) - Swarm DAppNode package for Swarm Mainnet with multi-platform (x86_64 and arm64) support.
 
 [Mipasa Swarm Connector](https://github.com/MiPasa/mipasa-swarm-connector/) - MiPasa connector for Swarm (BZZ) distributed storage network.
 
