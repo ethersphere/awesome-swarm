@@ -4,12 +4,19 @@ This is a list of free and open source projects related to Swarm and its growing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) to learn how to create your submission.
 
-### Services
+### Nodes
 
 **[`^ back to top ^`](#)**
 
-[Bee](https://github.com/ethersphere/bee) - Also referred to as the _node_ or the _client_, this service allows you to join the Swarm network.
+[Bee](https://github.com/ethersphere/bee) - Official Swarm full node implementation in Go, provided by the Swarm Foundation.
 
+[Ant](https://github.com/solardev-xyz/ant) - A lightweight Swarm client built in Rust, designed to be embedded in Freedom Browser.
+
+[Hoverfly](https://github.com/omnipin/hoverfly) - Experimental Swarm light client that works natively and in a browser.
+
+[Vertex](https://github.com/nxm-rs/vertex) - Swarm full node under active development in Rust, with a focus on performance and modularity.
+
+[weeb-3](https://github.com/lat-murmeldjur/weeb-3) - Work-in-progress Swarm client implementation that relies solely on browser-side technologies.
 
 ### Libraries
 
