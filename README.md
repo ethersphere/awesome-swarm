@@ -26,6 +26,8 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) to learn how to create your submission.
 
 [Mantaray-py](https://github.com/Ankvik-Tech-Labs/mantaray-py/) - Allows you to manipulate and interpret mantaray data via MantarayNode and MantarayFork abstractions.
 
+[recordstore](https://github.com/petfold/recordstore) - Versioned key-value record store over Swarm with canonical roots, atomic commits and snapshot isolation, in Python.
+
 [swarmfs](https://github.com/petfold/swarmfs) - An fsspec backend for Swarm — use bzz:// URLs across the Python data stack (pandas, Dask, Zarr, DuckDB, etc.).
 
 ### CI/CD
