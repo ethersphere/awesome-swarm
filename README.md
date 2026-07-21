@@ -14,6 +14,8 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) to learn how to create your submission.
 
 [Hoverfly](https://github.com/omnipin/hoverfly) - Experimental Swarm light client that works natively and in a browser.
 
+[Kabashira](https://radicle.network/nodes/rosa.radicle.network/rad:z41Aa98xcURaZQnV2Lrio1SoX3Tjd) - An intentionally minimal lightweight Rust client and toolkit for Swarm.
+
 [Vertex](https://github.com/nxm-rs/vertex) - Swarm full node under active development in Rust, with a focus on performance and modularity.
 
 [weeb-3](https://github.com/lat-murmeldjur/weeb-3) - Work-in-progress Swarm client implementation that relies solely on browser-side technologies.
