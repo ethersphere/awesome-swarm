@@ -41,6 +41,8 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) to learn how to create your submission.
 
 [swarmfs](https://github.com/petfold/swarmfs) - An fsspec backend for Swarm — use bzz:// URLs across the Python data stack (pandas, Dask, Zarr, DuckDB, etc.).
 
+[swarmlite](https://github.com/petfold/swarmlite) - Verifiable serverless SQLite hosting: run SELECT against published databases, fetching only the pages each query touches, in Python or in the browser.
+
 ## CI/CD
 
 [Beekeeper](https://github.com/ethersphere/beekeeper) - Orchestrate and test Bee clusters through Kubernetes.
