@@ -78,6 +78,8 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) to learn how to create your submission.
 
 [Doctor Bee](https://github.com/w3rkspacelabs/doctor-bee) - A simple python script to check up a Bee node's health status.
 
+[etherchunk](https://github.com/Cafe137/etherchunk) - CLI that stamps chunks client-side and tracks postage-batch slot usage, enabling file deletion by reclaiming slots.
+
 [IPFS to Swarm](https://github.com/Solar-Punk-Ltd/ipfs-to-swarm) - Migrate data from IPFS to Swarm.
 
 ## Smart Contracts
