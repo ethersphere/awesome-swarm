@@ -1,0 +1,51 @@
+name: list-health
+
+on:
+  pull_request:
+  push:
+    branches: [master]
+  schedule:
+    - cron: '0 6 * * 1'   # weekly (Mon 06:00 UTC) — catch links/repos that rot over time
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write           # lets the scheduled run file an issue
+
+jobs:
+  link-check:
+    name: link-check (liveness)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check links
+        id: lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --verbose --no-progress
+            --max-concurrency 8
+            --accept 200,206,403,429
+            README.md
+          # Fail on PRs/pushes; on the weekly run, open an issue instead of failing.
+          fail: ${{ github.event_name != 'schedule' }}
+      - name: File an issue on scheduled link rot
+        if: github.event_name == 'schedule' && steps.lychee.outputs.exit_code != 0
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: 'Link check: broken links found'
+          content-filepath: ./lychee/out.md
+          labels: documentation
+
+  archived-check:
+    name: archived-repo check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - name: Flag archived repos listed in live sections
+        run: python3 scripts/check-archived.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
