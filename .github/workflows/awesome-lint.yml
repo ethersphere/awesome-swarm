@@ -1,0 +1,26 @@
+name: awesome-lint
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  awesome-lint:
+    name: awesome-lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Run awesome-lint
+        run: npx --yes awesome-lint
+        env:
+          # awesome-lint's GitHub rule queries the API for repo metadata
+          # (license, description, topics); the token avoids rate limits.
+          github_token: ${{ secrets.GITHUB_TOKEN }}
