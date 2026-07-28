@@ -4,6 +4,19 @@ This is a list of free and open source projects related to Swarm and its growing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) to learn how to create your submission.
 
+## Contents
+
+- [Nodes](#nodes)
+- [Libraries](#libraries)
+- [CI/CD](#cicd)
+- [UI](#ui)
+- [Tools](#tools)
+- [Smart Contracts](#smart-contracts)
+- [Documentation](#documentation)
+- [Community / Ecosystem](#community--ecosystem)
+- [Miscellaneous](#miscellaneous)
+- [Archived or dormant](#archived-or-dormant)
+
 ### Nodes
 
 **[`^ back to top ^`](#)**
@@ -36,7 +49,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) to learn how to create your submission.
 
 [Beekeeper](https://github.com/ethersphere/beekeeper) - Orchestrate and test Bee clusters through Kubernetes.
 
-[Swarm Actions](https://github.com/ethersphere/swarm-actions) - GitHub Actions workflow for uploading data to the Swarm network.  
+[Swarm Actions](https://github.com/ethersphere/swarm-actions) - GitHub Actions workflow for uploading data to the Swarm network.
 
 ### UI
 
@@ -50,9 +63,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) to learn how to create your submission.
 
 [Multichain Widget](https://github.com/ethersphere/multichain-widget) - Embeddable React widget for multichain swaps to xBZZ and xDAI.
 
-[Swarmy](https://swarmy.cloud/) - Swarm as a service, makes it simple to store and retrieve data on Swarm. 
+[Swarmy](https://swarmy.cloud/) - Swarm as a service, makes it simple to store and retrieve data on Swarm.
 
-[Swarm Desktop App](https://www.ethswarm.org/build/desktop) -  By running a lightweight Swarm node on your computer, you get direct access to the Swarm peer-to-peer network, without the need for centralized gateways.    
+[Swarm Desktop App](https://www.ethswarm.org/build/desktop) - By running a lightweight Swarm node on your computer, you get direct access to the Swarm peer-to-peer network, without the need for centralized gateways.
 
 [buzzMint](https://buzzmint.io/) - A decentralised NFT creator.
 
@@ -115,7 +128,6 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) to learn how to create your submission.
 [Fairdrive](https://fairdrive.fairdatasociety.org/) - Decentralised and unstoppable "Dropbox" for end-users and developers using Fair Data Protocol.
 
 [Fairdrive code](https://github.com/fairDataSociety/fairdrive-theapp) - Code for decentralised and unstoppable "Dropbox" for end-users and developers using Fair Data Protocol.
-
 
 [SwarmScan](https://swarmscan.io/) - Get network insights.
 
