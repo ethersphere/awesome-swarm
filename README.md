@@ -85,6 +85,8 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) to learn how to create your submission.
 
 [IPFS to Swarm](https://github.com/Solar-Punk-Ltd/ipfs-to-swarm) - Migrate data from IPFS to Swarm.
 
+[Datafund Provenance Toolkit](https://github.com/datafund/provenance) - Store data on Swarm with cryptographic provenance — hashing, optional notary signing and on-chain anchoring, with SDK, CLI and MCP server.
+
 ### Smart Contracts
 
 **[`^ back to top ^`](#)**
