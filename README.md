@@ -1,12 +1,25 @@
+# Awesome Swarm [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+
 [Swarm](https://www.ethswarm.org/) is an incentivized peer-to-peer storage and communication system. [Join the decentralized network with a Bee node](https://docs.ethswarm.org/docs/bee/installation/quick-start), the basic building block of Swarm.
 
 This is a list of free and open source projects related to Swarm and its growing ecosystem.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) to learn how to create your submission.
 
-### Nodes
+## Contents
 
-**[`^ back to top ^`](#)**
+- [Nodes](#nodes)
+- [Libraries](#libraries)
+- [CI/CD](#cicd)
+- [UI](#ui)
+- [Tools](#tools)
+- [Smart Contracts](#smart-contracts)
+- [Documentation](#documentation)
+- [Community / Ecosystem](#community--ecosystem)
+- [Miscellaneous](#miscellaneous)
+- [Archived or dormant](#archived-or-dormant)
+
+## Nodes
 
 [Bee](https://github.com/ethersphere/bee) - Official Swarm full node implementation in Go, provided by the Swarm Foundation.
 
@@ -20,29 +33,23 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) to learn how to create your submission.
 
 [weeb-3](https://github.com/lat-murmeldjur/weeb-3) - Work-in-progress Swarm client implementation that relies solely on browser-side technologies.
 
-### Libraries
-
-**[`^ back to top ^`](#)**
+## Libraries
 
 [Bee-JS](https://github.com/ethersphere/bee-js) - A high-level Javascript library to interact with Bee through its REST API.
-
-[Mantaray-py](https://github.com/Ankvik-Tech-Labs/mantaray-py/) - Allows you to manipulate and interpret mantaray data via MantarayNode and MantarayFork abstractions.
 
 [recordstore](https://github.com/petfold/recordstore) - Versioned key-value record store over Swarm with canonical roots, atomic commits and snapshot isolation, in Python.
 
 [swarmfs](https://github.com/petfold/swarmfs) - An fsspec backend for Swarm — use bzz:// URLs across the Python data stack (pandas, Dask, Zarr, DuckDB, etc.).
 
-### CI/CD
+[swarmlite](https://github.com/petfold/swarmlite) - Verifiable serverless SQLite hosting: run SELECT against published databases, fetching only the pages each query touches, in Python or in the browser.
 
-**[`^ back to top ^`](#)**
+## CI/CD
 
 [Beekeeper](https://github.com/ethersphere/beekeeper) - Orchestrate and test Bee clusters through Kubernetes.
 
-[Swarm Actions](https://github.com/ethersphere/swarm-actions) - GitHub Actions workflow for uploading data to the Swarm network.  
+[Swarm Actions](https://github.com/ethersphere/swarm-actions) - GitHub Actions workflow for uploading data to the Swarm network.
 
-### UI
-
-**[`^ back to top ^`](#)**
+## UI
 
 [Bee Dashboard](https://github.com/ethersphere/bee-dashboard) - React project to troubleshoot and interact with your Bee node.
 
@@ -52,18 +59,14 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) to learn how to create your submission.
 
 [Multichain Widget](https://github.com/ethersphere/multichain-widget) - Embeddable React widget for multichain swaps to xBZZ and xDAI.
 
-[Swarmy](https://swarmy.cloud/) - Swarm as a service, makes it simple to store and retrieve data on Swarm. 
+[Swarmy](https://swarmy.cloud/) - Swarm as a service, makes it simple to store and retrieve data on Swarm.
 
-[Swarm Desktop App](https://www.ethswarm.org/build/desktop) -  By running a lightweight Swarm node on your computer, you get direct access to the Swarm peer-to-peer network, without the need for centralized gateways.    
-
-[Etherjot](https://github.com/ethersphere/etherjot) - Bring your web3 blog live in minutes with Etherjot, a graphical blogging application natively supporting Swarm.
+[Swarm Desktop App](https://www.ethswarm.org/build/desktop) - By running a lightweight Swarm node on your computer, you get direct access to the Swarm peer-to-peer network, without the need for centralized gateways.
 
 [buzzMint](https://buzzmint.io/) - A decentralised NFT creator.
 
 
-### Tools
-
-**[`^ back to top ^`](#)**
+## Tools
 
 [Swarm MCP](https://github.com/ethersphere/swarm-mcp) - A Model Context Protocol (MCP) server implementation that uses Ethereum Swarm's Bee API for storing and retrieving data.
 
@@ -73,31 +76,23 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) to learn how to create your submission.
 
 [Bee Factory](https://github.com/ethersphere/bee-factory) - CLI tool to spin up a test environment with Bee clients and a test blockchain.
 
-[Swarm Extension](https://github.com/ethersphere/swarm-extension) - Official extension that adds Swarm support and injects Bee library to the browser.
-
-[Swarm CID Converter](https://github.com/agazso/swarm-cid-converter) - Convert Swarm hashes or links to CID and vice versa.
-
-[Bee-AFS](https://github.com/aloknerurkar/bee-afs) - FUSE filesystem for Bee.
-
 [Nextcloud Swarm Plugin](https://github.com/MetaProvide/nextcloud-swarm-plugin) - Plugin for bridging Nextcloud and Swarm.
 
 [Doctor Bee](https://github.com/w3rkspacelabs/doctor-bee) - A simple python script to check up a Bee node's health status.
+
+[etherchunk](https://github.com/Cafe137/etherchunk) - CLI that stamps chunks client-side and tracks postage-batch slot usage, enabling file deletion by reclaiming slots.
 
 [IPFS to Swarm](https://github.com/Solar-Punk-Ltd/ipfs-to-swarm) - Migrate data from IPFS to Swarm.
 
 [Datafund Provenance Toolkit](https://github.com/datafund/provenance) - Store data on Swarm with cryptographic provenance — hashing, optional notary signing and on-chain anchoring, with SDK, CLI and MCP server.
 
-### Smart Contracts
-
-**[`^ back to top ^`](#)**
+## Smart Contracts
 
 [Swap, Swear and Swindle](https://github.com/ethersphere/swap-swear-and-swindle) - Protocols for peer-to-peer accounting.
 
 [Storage Incentives](https://github.com/ethersphere/storage-incentives) - Smart contracts providing the basis for Swarm's storage incentivization model.
 
-### Documentation
-
-**[`^ back to top ^`](#)**
+## Documentation
 
 [The Book of Swarm](https://docs.ethswarm.org/the-book-of-swarm.pdf) - Storage and communication infrastructure for self-sovereign digital society back-end stack for the decentralised web.
 
@@ -114,9 +109,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) to learn how to create your submission.
 [Bee API Reference](https://docs.ethswarm.org/api/) - Bee API Documentation.
 
 
-### Community / Ecosystem
-
-**[`^ back to top ^`](#)**
+## Community / Ecosystem
 
 [Fair data society](https://fairdatasociety.org/) - Ecosystem initiative for ethical Web3.
 
@@ -128,20 +121,11 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) to learn how to create your submission.
 
 [Fairdrive code](https://github.com/fairDataSociety/fairdrive-theapp) - Code for decentralised and unstoppable "Dropbox" for end-users and developers using Fair Data Protocol.
 
-
 [SwarmScan](https://swarmscan.io/) - Get network insights.
 
 [Etherna.io](https://etherna.io/) - Decentralised media platform on Swarm.
 
-[SwarmNFT library](https://github.com/igar1991/SwarmNFT) - JavaScript library for creating NFTs on Ethereum-compatible blockchains and storing content on Swarm.
-
-[videoNFT](https://github.com/pblvrt/videoNFT) - NFT live streaming with Swarm (winner of EthBerlin3 2022 Freedom to Transact Track).
-
-[DeBoot](https://github.com/debootdevs/deboot) - DeBoot is a project to research and implement approaches to bootloading OS images from a decentralized storage network such as Swarm or IPFS.
-
 [Swarm DAppNode Package](https://github.com/w3rkspacelabs/DAppNodePackage-Swarm) - Swarm DAppNode package for Swarm Mainnet with multi-platform (x86_64 and arm64) support.
-
-[Mipasa Swarm Connector](https://github.com/MiPasa/mipasa-swarm-connector/) - MiPasa connector for Swarm (BZZ) distributed storage network.
 
 [Export Webpage on Swarm](https://github.com/ethersphere/devcon-swarm-exporter) - CLI tool to build an optimized static export of devcon app frontend.
 
@@ -149,13 +133,39 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) to learn how to create your submission.
 
 [SWIPs](https://github.com/ethersphere/SWIPs) - The Swarm Improvement Proposal repository.
 
-### Miscellaneous
-
-**[`^ back to top ^`](#)**
-
-[Swarm Bot](https://github.com/ethersphere/swarm-bot) - Discord bot handling commands related to Swarm and its community.
+## Miscellaneous
 
 [ethersphere/bee DeepWiki](https://deepwiki.com/ethersphere/bee) - The DeepWiki for the Bee client GitHub repository. DeepWiki is a tool which provides autogenerated documentation (using LLM ai agents such as ChatGPT or Google Gemini) based directly on code from a GitHub repository. It also has a question box where any question can be asked about the Bee codebase.
 
 
 *As with all LLMs, DeepWiki may sometimes be confidently wrong. Make sure to always double check (either by inspecting the code yourself, or confirming with a Bee team core developer) before assuming its answers are correct.*
+
+## Archived or dormant
+
+Projects that are no longer actively maintained. They are kept here — rather than removed outright — because the code and ideas can still be useful for reference, forks, or inspiration. An entry moves back up into the main sections if development resumes.
+
+### Archived by their maintainers
+
+[Etherjot](https://github.com/ethersphere/etherjot) - Archived CLI for importing Hugo and Jekyll blogs onto Swarm; its [web app](https://github.com/ethersphere/etherjot-web) and core library [Libetherjot](https://github.com/ethersphere/libetherjot) are archived too.
+
+[Swarm Bot](https://github.com/ethersphere/swarm-bot) - Discord bot handling commands related to Swarm and its community.
+
+### No activity for 2+ years
+
+[Swarm Extension](https://github.com/ethersphere/swarm-extension) - Browser extension that adds Swarm support and injects the Bee library into the browser.
+
+[Swarm CID Converter](https://github.com/agazso/swarm-cid-converter) - Convert Swarm hashes or links to CID and vice versa.
+
+[Bee-AFS](https://github.com/aloknerurkar/bee-afs) - FUSE filesystem for Bee.
+
+[SwarmNFT library](https://github.com/igar1991/SwarmNFT) - JavaScript library for creating NFTs on Ethereum-compatible blockchains and storing content on Swarm.
+
+[videoNFT](https://github.com/pblvrt/videoNFT) - NFT live streaming with Swarm (winner of EthBerlin3 2022 Freedom to Transact Track).
+
+### Dormant (~1.5–2 years)
+
+[Mantaray-py](https://github.com/Ankvik-Tech-Labs/mantaray-py) - Allows you to manipulate and interpret mantaray data via MantarayNode and MantarayFork abstractions.
+
+[DeBoot](https://github.com/debootdevs/deboot) - Research and implementation of approaches to bootloading OS images from a decentralized storage network such as Swarm or IPFS.
+
+[Mipasa Swarm Connector](https://github.com/MiPasa/mipasa-swarm-connector) - MiPasa connector for Swarm (BZZ) distributed storage network.
