@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
-"""Flag GitHub repositories that are archived but still listed in a live section.
+"""Flag GitHub repositories that are archived but still listed in the main list.
 
-Repositories under the "Archived or dormant" section are expected to be archived,
-so they are skipped. Any archived repo found in another section is reported as an
-error (with a GitHub Actions annotation) and makes the job fail.
+Unmaintained and archived projects belong in `archived.md`, not in `README.md`
+(the Awesome guidelines ask that such items be kept out of the main list). Any
+archived repo found in `README.md` is reported as an error (with a GitHub Actions
+annotation) and makes the job fail; entries in `archived.md` are not checked, as
+they are expected to be archived or dormant.
 """
 import json
 import os
@@ -13,7 +15,6 @@ import urllib.error
 import urllib.request
 
 README = "README.md"
-ARCHIVE_SECTIONS = {"Archived or dormant"}
 LINK_RE = re.compile(r"https://github\.com/([A-Za-z0-9_.-]+)/([A-Za-z0-9_.-]+)")
 
 token = os.environ.get("GITHUB_TOKEN")
@@ -35,16 +36,10 @@ def api_archived(slug):
 
 
 def collect_live_repos():
-    """Map 'owner/repo' -> line number, for repos in non-archive sections."""
+    """Map 'owner/repo' -> line number, for every repo linked in README.md."""
     live = {}
-    in_archive = False
     with open(README, encoding="utf-8") as handle:
         for lineno, line in enumerate(handle, 1):
-            if line.startswith("## "):
-                in_archive = line[3:].strip() in ARCHIVE_SECTIONS
-                continue
-            if in_archive:
-                continue
             for owner, repo in LINK_RE.findall(line):
                 slug = f"{owner}/{repo.rstrip('/')}"
                 live.setdefault(slug, lineno)
@@ -62,15 +57,15 @@ def main():
             problems.append(slug)
             print(
                 f"::error file={README},line={lineno}::{slug} is archived on GitHub "
-                f'but listed in a live section — move it to "Archived or dormant"'
+                f"but listed in README.md — move it to archived.md"
             )
         else:
             print(f"ok: {slug}")
 
     if problems:
-        print(f"\n{len(problems)} archived repo(s) found in live sections.")
+        print(f"\n{len(problems)} archived repo(s) found in README.md.")
         return 1
-    print("\nNo archived repos in live sections.")
+    print("\nNo archived repos in README.md.")
     return 0
 
 
