@@ -3,7 +3,7 @@ name: list-health
 on:
   pull_request:
   push:
-    branches: [master]
+    branches: [master, main]
   schedule:
     - cron: '0 6 * * 1'   # weekly (Mon 06:00 UTC) — catch links/repos that rot over time
   workflow_dispatch:
