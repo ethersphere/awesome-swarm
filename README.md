@@ -4,8 +4,6 @@
 
 This is a list of free and open source projects related to Swarm and its growing ecosystem.
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) to learn how to create your submission.
-
 ## Contents
 
 - [Nodes](#nodes)
@@ -138,6 +136,10 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) to learn how to create your submission.
 
 
 *As with all LLMs, DeepWiki may sometimes be confidently wrong. Make sure to always double check (either by inspecting the code yourself, or confirming with a Bee team core developer) before assuming its answers are correct.*
+
+## Contributing
+
+Contributions are welcome. Please read the [contribution guidelines](CONTRIBUTING.md) first.
 
 ## Footnotes
 
