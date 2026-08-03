@@ -27,7 +27,7 @@ One project per pull request. Use the exact entry format from [CONTRIBUTING.md](
 
 - Keep the description factual and specific; describe what the project *does*, not marketing copy.
 - Match the description to the repository you link — do not describe a sibling repo (a common mistake when a project spans a CLI, a web app, and a library).
-- Place the entry in the section that fits its primary purpose. Current sections: **Nodes**, **Libraries**, **CI/CD**, **UI**, **Tools**, **Smart Contracts**, **Documentation**, **Community / Ecosystem**, **Miscellaneous**, and **Archived or dormant** (see below).
+- Place the entry in the section that fits its primary purpose. Current sections: **Nodes**, **Libraries**, **CI/CD**, **UI**, **Tools**, **Smart Contracts**, **Documentation**, **Community / Ecosystem**, and **Miscellaneous**. Unmaintained or archived projects are not listed in these sections — they live in the separate [archived.md](archived.md) file (see below).
 
 ## Self-verification checklist (run this before opening the PR)
 
@@ -39,26 +39,26 @@ An agent should confirm each of these itself — do not rely on the maintainer t
    - and check the project is not already in `README.md`.
 2. **Repository is public, not archived, and licensed:**
    - `gh api repos/<owner>/<repo> --jq '{private, archived, license: .license.spdx_id, pushed_at}'`
-   - Skip it if `private` is true or `license` is null. If `archived` is true, it belongs in *Archived or dormant*, not a main section.
+   - Skip it if `private` is true or `license` is null. If `archived` is true, it belongs in [archived.md](archived.md), not in `README.md` at all.
 3. **The link resolves** (HTTP 200), and any homepage/docs links you add resolve too.
 4. **The description is accurate and current**, under 160 characters, sentence case, one sentence.
 5. **One item, one PR.**
 
-## Maintenance & staleness policy — the "Archived or dormant" section
+## Maintenance & staleness policy — the [archived.md](archived.md) file
 
-Projects that stop seeing activity are **moved to an `Archived or dormant` section rather than deleted**. This keeps still-useful code and ideas discoverable, and an entry can move back into the main sections if development resumes. The section is organised into:
+Projects that stop seeing activity are **moved to the separate [archived.md](archived.md) file rather than deleted**. This keeps still-useful code and ideas discoverable, and an entry can move back into the main list if development resumes. It is a separate file — not a section of `README.md` — because the [Awesome](https://github.com/sindresorhus/awesome) guidelines ask that unmaintained, archived, or deprecated items be kept out of the main list. The file is organised into:
 
 - **Archived by their maintainers** — the repository itself is archived on GitHub.
 - **No activity for 2+ years** — long-dormant but not archived.
 - **Dormant (~1.5–2 years)** — quiet, worth watching.
 
-If you are adding a project, it should go in a main section only if it is genuinely maintained. Be honest about this.
+If you are adding a project, it should go in `README.md` only if it is genuinely maintained. Be honest about this.
 
 ## How maintainers review and audit the list
 
 For transparency — and so agents can self-assess against the same bar — this is the periodic audit the list is checked against:
 
-- **Activity & archival:** each GitHub entry is checked via the API for `pushed_at` (last activity) and `archived`. Recent activity keeps it in a main section; archived or long-dormant entries are relocated to *Archived or dormant*.
+- **Activity & archival:** each GitHub entry is checked via the API for `pushed_at` (last activity) and `archived`. Recent activity keeps it in `README.md`; archived or long-dormant entries are relocated to [archived.md](archived.md).
 - **Link liveness:** every URL (repositories, websites, PDFs) is checked for a live response; dead links are fixed or removed.
 - **Description accuracy:** each description is checked against what the project actually is and does — including that the link and the description refer to the *same* repository.
 - **Relevance:** the project must still be about Swarm and sit in the right section.
