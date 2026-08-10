@@ -1,0 +1,9 @@
+# Normalise all text files to LF in the repository and on checkout.
+* text=auto eol=lf
+
+*.png binary
+
+# The lists are flat sequences of independent entries: when two branches each
+# append a different one, keep both rather than raising a conflict.
+README.md merge=union
+archived.md merge=union
