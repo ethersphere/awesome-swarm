@@ -38,6 +38,8 @@ This is a list of free and open source projects related to Swarm and its growing
 
 [Bee-JS](https://github.com/ethersphere/bee-js) - A high-level Javascript library to interact with Bee through its REST API.
 
+[OntoDAG](https://github.com/petfold/ontodag) - Category DAG on Swarm: canonical content-addressed roots, queries as intersections of subcategories, coordination-free merge between writers.
+
 [recordstore](https://github.com/petfold/recordstore) - Versioned key-value record store over Swarm with canonical roots, atomic commits and snapshot isolation, in Python.
 
 [swarmfs](https://github.com/petfold/swarmfs) - An fsspec backend for Swarm — use bzz:// URLs across the Python data stack (pandas, Dask, Zarr, DuckDB, etc.).
@@ -86,6 +88,8 @@ This is a list of free and open source projects related to Swarm and its growing
 [IPFS to Swarm](https://github.com/Solar-Punk-Ltd/ipfs-to-swarm) - Migrate data from IPFS to Swarm.
 
 [Datafund Provenance Toolkit](https://github.com/datafund/provenance) - Store data on Swarm with cryptographic provenance — hashing, optional notary signing and on-chain anchoring, with SDK, CLI and MCP server.
+
+[ontodag-fs](https://github.com/petfold/ontodag-fs) - Browse an OntoDAG category lattice as a read-only fsspec and FUSE filesystem where directory paths are queries and file content is stored on Swarm.
 
 ## Smart Contracts
 
