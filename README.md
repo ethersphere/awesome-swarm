@@ -36,7 +36,7 @@ This is a list of free and open source projects related to Swarm and its growing
 
 ## Libraries
 
-[Bee-JS](https://github.com/ethersphere/bee-js) - A high-level Javascript library to interact with Bee through its REST API.
+[Bee-JS](https://github.com/ethersphere/bee-js) - A high-level JavaScript library to interact with Bee through its REST API.
 
 [OntoDAG](https://github.com/petfold/ontodag) - Category DAG on Swarm: canonical content-addressed roots, queries as intersections of subcategories, coordination-free merge between writers.
 
@@ -81,7 +81,7 @@ This is a list of free and open source projects related to Swarm and its growing
 
 [Nextcloud Swarm Plugin](https://github.com/MetaProvide/nextcloud-swarm-plugin) - Plugin for bridging Nextcloud and Swarm.
 
-[Doctor Bee](https://github.com/w3rkspacelabs/doctor-bee) - A simple python script to check up a Bee node's health status.
+[Doctor Bee](https://github.com/w3rkspacelabs/doctor-bee) - A simple Python script to check up a Bee node's health status.
 
 [etherchunk](https://github.com/Cafe137/etherchunk) - CLI that stamps chunks client-side and tracks postage-batch slot usage, enabling file deletion by reclaiming slots.
 
@@ -103,7 +103,7 @@ This is a list of free and open source projects related to Swarm and its growing
 
 [Bee Docs](https://github.com/ethersphere/bee-docs) - Documentation for the Swarm Bee Client. View at [docs.ethswarm.org](https://docs.ethswarm.org/docs/).
 
-[Bee-JS Docs](https://github.com/ethersphere/bee-js-docs) - Documentation for the Swarm Bee-js javascript library. View at [bee-js.ethswarm.org](https://bee-js.ethswarm.org/docs/).
+[Bee-JS Docs](https://github.com/ethersphere/bee-js-docs) - Documentation for the Swarm Bee-JS JavaScript library. View at [bee-js.ethswarm.org](https://bee-js.ethswarm.org/docs/).
 
 [Swarm Specification](https://papers.ethswarm.org/p/swarm-protocol-spec/) - The Swarm specification document is an essential resource for developers and software engineers seeking to build their own Swarm client or integrate Swarm's functionalities into their applications.
 
