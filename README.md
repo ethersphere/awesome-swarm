@@ -91,6 +91,8 @@ This is a list of free and open source projects related to Swarm and its growing
 
 [ontodag-fs](https://github.com/petfold/ontodag-fs) - Browse an OntoDAG category lattice as a read-only fsspec and FUSE filesystem where directory paths are queries and file content is stored on Swarm.
 
+[s3warm](https://github.com/petfold/s3warm) - Amazon S3-compatible API gateway for Swarm — point the AWS CLI, boto3, rclone or any existing S3 app at decentralized storage.
+
 ## Smart Contracts
 
 [Swap, Swear and Swindle](https://github.com/ethersphere/swap-swear-and-swindle) - Protocols for peer-to-peer accounting.
