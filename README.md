@@ -93,6 +93,8 @@ This is a list of free and open source projects related to Swarm and its growing
 
 [s3warm](https://github.com/petfold/s3warm) - Amazon S3-compatible API gateway for Swarm — point the AWS CLI, boto3, rclone or any existing S3 app at decentralized storage.
 
+[git-swarm](https://github.com/crtahlin/git-swarm) - Git remote helper for Swarm — `git push bzz::` and `git clone bzz://`, with refs in signed feeds and a static web viewer.
+
 ## Smart Contracts
 
 [Swap, Swear and Swindle](https://github.com/ethersphere/swap-swear-and-swindle) - Protocols for peer-to-peer accounting.
